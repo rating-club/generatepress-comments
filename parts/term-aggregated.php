@@ -13,7 +13,7 @@
 		'method'     => 'stars-rating'
     ));
 
-	/** Render the custom static stars with the max stars of 5, and specified rating from the aggregated result */
+	/* Render the custom static stars with the max stars of 5, and specified rating from the aggregated result */
 	echo gdrts_render_custom_stars_block(array(
 	        'stars' => 5,
             'rating' => $rating->rating,
